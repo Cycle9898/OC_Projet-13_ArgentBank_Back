@@ -1,4 +1,4 @@
-# Project #10 - Argent Bank API
+# Project #13 - Argent Bank API
 
 This codebase contains the code needed to run the backend for Argent Bank.
 
@@ -30,13 +30,13 @@ mongo --version
 
 ```bash
 # Install dependencies
-npm install
+yarn
 
 # Start local dev server
-npm run dev:server
+yarn dev:server
 
 # Populate database with two users
-npm run populate-db
+yarn populate-db
 ```
 
 Your server should now be running at http://locahost:3001 and you will now have two users in your MongoDB database!
